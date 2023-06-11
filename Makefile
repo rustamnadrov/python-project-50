@@ -4,9 +4,6 @@ install:
 build:
 	poetry build
 
-run:
-	poetry run gendiff
-
 publish:
 	poetry publish --dry-run
 
